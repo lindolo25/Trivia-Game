@@ -6,7 +6,7 @@ body {
 
 h1, h2, h3, h4, h5, h6 { font-family: 'Luckiest Guy', cursive; color: burlywood; }
 
-#trivia-space { padding-top: 60px; }
+#description { margin-top: 50px; }
 
 #timer {
     position: absolute;
@@ -26,13 +26,34 @@ h1, h2, h3, h4, h5, h6 { font-family: 'Luckiest Guy', cursive; color: burlywood;
     position: relative;
 }
 
-.option>p {
+.option>p, .option-correct>p, .option-incorrect>p, .option-neutral>p {
     font-size: 14px;
     padding: 10px;
     border: gray solid 2px;
     margin: 0.5rem 0;
+    cursor: default;
 }
+
+.option>p { cursor: pointer; }
 
     .option>p:hover {
         border: #000000 solid 2px;
     }
+
+h4.correct { color: rgb(40, 167, 69); }
+
+h4.incorrect { color: rgb(220, 53, 69); }
+
+h4.neutral { color: black; }
+
+.option-correct>p {
+    border: rgb(40, 167, 69) solid 2px;
+    background-color: rgb(40, 167, 69);
+    color:white;
+}
+
+.option-incorrect>p {
+    border: rgb(220, 53, 69) solid 2px;
+    background-color: rgb(220, 53, 69);
+    color:white;
+}
