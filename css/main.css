@@ -17,7 +17,20 @@ h1, h2, h3, h4, h5, h6 { font-family: 'Luckiest Guy', cursive; color: burlywood;
     right: 0px;
 }
 
+#trivia-options>#question-head>p:first-child { margin-top: 40px; }
+
 .container { margin-top: 25px; }
+
+.relative { position: relative; }
+
+.badge { 
+    padding: 6px 11px; 
+    font-size: 14px;
+    position: absolute;
+    border-radius: 0;
+    right: 7px;
+    top: 7px;
+}
 
 .background-white {
     background-color: whitesmoke;
