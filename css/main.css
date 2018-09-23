@@ -1,0 +1,38 @@
+body { 
+    font-family: 'Open Sans', sans-serif;
+    background-image: url("../images/footer_lodyas.png");
+    color:  whitesmoke;
+}
+
+h1, h2, h3, h4, h5, h6 { font-family: 'Luckiest Guy', cursive; color: burlywood; }
+
+#trivia-space { padding-top: 60px; }
+
+#timer {
+    position: absolute;
+    background-color: black;
+    color: whitesmoke;
+    padding: 10px;
+    top: 0px;
+    right: 0px;
+}
+
+.container { margin-top: 25px; }
+
+.background-white {
+    background-color: whitesmoke;
+    color: initial;
+    padding: 25px;
+    position: relative;
+}
+
+.option>p {
+    font-size: 14px;
+    padding: 10px;
+    border: gray solid 2px;
+    margin: 0.5rem 0;
+}
+
+    .option>p:hover {
+        border: #000000 solid 2px;
+    }

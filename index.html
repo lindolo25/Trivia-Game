@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Luckiest+Guy|Open+Sans" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" 
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" 
+        crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"
+			integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+            crossorigin="anonymous"></script>
+            
+    <link rel="stylesheet" type="text/css" media="screen" href="css/main.css" />
+    <script src="js/trivia.js"></script>
+</head>
+<body>
+    <div class="container text-center">
+        <header>
+            <h1>Computer Trivia</h1>
+            <p>Good Luck</p>
+        </header>
+        <main class="row">
+            <div class="col-12">
+                <div id="trivia-space" class="background-white">
+                    <div id="timer"><span>0:00</span></div>
+                    <p id=""></p>
+                    <div id="trivia-options" class="row justify-content-md-center">
+                        <!--<div class="option col-12 col-sm-6 col-lg-4" data-index="">
+                            <p>Or toggle this other custom radio</p>
+                        </div>-->
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+    <script>
+
+        $(document).ready(function(){ trivia.init(); });
+    
+    </script>
+</body>
+</html>
