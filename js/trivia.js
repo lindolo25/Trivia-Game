@@ -1,14 +1,54 @@
 var trivia = {
     questions: [
         {
-            description: "Could you be able to respond this quesion?",
+            description: "How many bits is a byte?",
             correctAnswer: 1,
-            answers: ["Answer 1","Answer 2","Answer 3","Answer 4"]
+            answers: ["4","8","16","32"]
         },
         {
-            description: "Could you be able to respond the second quesion?",
+            description: "WWW stands for?",
+            correctAnswer: 1,
+            answers: ["World Worm Web","World Wide Web","World Word Web","None of the above"]
+        },
+        {
+            description: "A ________________ is a group of independent computers attached to one another through communication media.",
+            correctAnswer: 2,
+            answers: ["Internet","E-mail","Network","All of the above"]
+        },
+        {
+            description: "Which of the following is a storage device?",
             correctAnswer: 3,
-            answers: ["Answer 1","Answer 2","Answer 3","Answer 4"]
+            answers: ["Hard Disk","USB Disk","Floppy Disk","All of the above"]
+        },
+        {
+            description: "A segment of a track in a mass storage system?",
+            correctAnswer: 2,
+            answers: ["Pixel","Address","Sector","Flip-Flop"]
+        },
+        {
+            description: "Which of the following bit patterns (represented in hexadecimal notation) represents a negative number in two’s complement notation?",
+            correctAnswer: 0,
+            answers: ["A6","55","7F","08"]
+        },
+        {
+            description: "A means of encoding text in which each symbol is represented by 16 bits",
+            correctAnswer: 2,
+            answers: ["ISO","ASCII","Unicode","LZW"]
+        },
+        {
+            description: "Collection of 1024 Bytes",
+            correctAnswer: 1,
+            answers: ["1MB","1KB","1TB","1GB"]
+        },
+        {
+            description: ".JS extension refers usually to what kind of file?",
+            correctAnswer: 3,
+            answers: ["Image File","Animation/Movie File","Programing/Scripting Related File","Hipertext Related File"]
+        },
+        {
+            description: "What does RAM stand for?",
+            correctAnswer: 0,
+            answers: ["Random Access Memory","Random Accelerator Module","Reserve Accelerated Memory","None of the above"]
         }
     ],
     correctAnswers: 0,
